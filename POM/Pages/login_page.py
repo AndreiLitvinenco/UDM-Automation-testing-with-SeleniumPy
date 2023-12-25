@@ -8,15 +8,15 @@ class LoginPage:
     def goToLogin(self):
         self.driver.get("https://practicetestautomation.com/practice-test-login/")
 
-    def setUsername(self):
+    def setUsername(self, UserVal):
         username = self.driver.find_element(By.ID, "username")
         username.clear()
-        username.send_keys("student")
+        username.send_keys(UserVal)
 
-    def setPassword(self):
+    def setPassword(self, PassVal):
         password = self.driver.find_element(By.ID, "password")
         password.clear()
-        password.send_keys("Password123")
+        password.send_keys(PassVal)
 
     def clickSubmit(self):
         submitButton = self.driver.find_element(By.ID, "submit")

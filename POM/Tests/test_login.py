@@ -13,8 +13,8 @@ class LoginTest(unittest.TestCase):
         loginPage = LP(self.driver)
 
         loginPage.goToLogin()
-        loginPage.setUsername()
-        loginPage.setPassword()
+        loginPage.setUsername("student")
+        loginPage.setPassword("Password123")
         loginPage.clickSubmit()
         loginPage.verifyLoginTitle()
 

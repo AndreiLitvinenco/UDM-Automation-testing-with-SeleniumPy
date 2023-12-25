@@ -1,5 +1,5 @@
 import sys
-sys.path.append("D:/proiecte_cc++/github/Udemy-course-automation-testing-with-Seleniumpy/POM")
+sys.path.append("MODIFY THIS PATH TO REVIEW")
 
 from selenium import webdriver
 import unittest

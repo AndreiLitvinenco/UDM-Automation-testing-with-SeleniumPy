@@ -8,4 +8,4 @@
 ## About
 - [x] Verify that the title from title tag == or contains "emag"
 - [x] Verify navbar elements 
-- [ ] Write the test script using Page Object Model
+- [x] Write the test script using Page Object Model

@@ -1,9 +1,7 @@
-import sys
-sys.path.append("MODIFY THIS PATH TO REVIEW")
-
 from selenium import webdriver
 import unittest
 from Pages.login_page import LoginPage as LP
+
 
 class LoginTest(unittest.TestCase):
     def setUp(self):
@@ -21,5 +19,6 @@ class LoginTest(unittest.TestCase):
     def tearDown(self):
         self.driver.quit()
 
-if __name__  == "__main__":
+
+if __name__ == "__main__":
     unittest.main()

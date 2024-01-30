@@ -1,6 +1,4 @@
 from selenium import webdriver
-import sys
-sys.path.append("/Udemy-course-automation-testing-with-Seleniumpy/final-project")
 import unittest
 from page.about_page import AboutPage as AP
 
@@ -22,5 +20,6 @@ class ProductTest(unittest.TestCase):
     def tearDown(self):
         self.driver.quit()
 
+
 if __name__ == "__main__":
-    unittest.main()    
+    unittest.main()

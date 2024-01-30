@@ -1,8 +1,7 @@
 from selenium import webdriver
-import sys
-sys.path.append("/Udemy-course-automation-testing-with-Seleniumpy/final-project")
 import unittest
 from page.home_page import HomePage as HP
+
 
 class LoginTest(unittest.TestCase):
 
@@ -24,4 +23,4 @@ class LoginTest(unittest.TestCase):
 
 
 if __name__ == "__main__":
-    unittest.main()    
+    unittest.main()
